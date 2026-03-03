@@ -1,0 +1,59 @@
+
+
+body{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+main{
+    display: grid;
+    grid-template-areas: 'h h h''b cs j''f f f';
+    grid-gap: 40px;
+}
+
+header{
+    grid-area: h;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#jobb{
+    grid-area: j;
+    border: 1px solid black;
+}
+
+#csonak{
+    display: flex;
+    grid-area: cs;
+    background-color: aqua;
+    border: 1px solid black;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+#csonak img{
+    width: 300px;
+}
+
+#bal{
+    grid-area: b;
+    border: 1px solid black;
+}
+
+footer{
+    grid-area: f;
+}
+
+footer p{
+    background-color: aqua;
+    text-align: center;
+}
+
+#bal img, #jobb img{
+    width: 100px;
+}
+
+.kiemel{
+    border: 2px solid red;
+}
