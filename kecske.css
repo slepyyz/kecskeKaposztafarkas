@@ -17,6 +17,11 @@ header{
     border: 1px solid black;
 }
 
+article{
+    display: flex;
+    align-items: center;
+}
+
 #jobb{
     grid-area: j;
     border: 1px solid black;
@@ -27,13 +32,24 @@ header{
     grid-area: cs;
     background-color: aqua;
     border: 1px solid black;
-    height: 300px;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
+    position: relative;
+    width: 100%;
 }
 
-#csonak img{
+#csonak .allatkep{
+    position: absolute;
+}
+
+#csonakkep{
     width: 300px;
+    height: auto;
+}
+
+.allatkep{
+    width: 100px;
+    height: auto;
 }
 
 #bal{
