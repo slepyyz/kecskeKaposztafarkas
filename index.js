@@ -17,6 +17,6 @@ for (let i = 0; i < kepek.length; i++) {
         kepekList.push(event.target.src)
         console.log(kepekList)
         kep.style.display = "none"
-        
+        csonakDivElem.innerhtml
     })
 }
